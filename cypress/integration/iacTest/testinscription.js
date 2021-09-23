@@ -25,6 +25,8 @@ describe("render inscription page", () => {
     // cy.get('a[href="#/prospect"]').click();
     // cy.get('a[href="#/prospect"]').click();
     // cy.get('a[href="#/prospect"]').click();
-    // cy.get('a[href="#/prospect"]').click();
+    cy.get('a[href="#/user"]').click();
+    // cy.wait(4000);
+    cy.get(".MuiToolbar-root > a.MuiButtonBase-root").click();
   });
 });
